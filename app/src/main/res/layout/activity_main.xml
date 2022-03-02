@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.mymapsvg.ZoomLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+
+    >
+
+    <FrameLayout
+        android:id="@+id/zoom"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" >
+
+
+        <ImageView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_mymap" />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="55dp"
+            android:src="@drawable/ic_person"
+            android:id="@+id/woman" />
+
+
+    </FrameLayout>
+
+
+ <FrameLayout
+       android:id="@+id/buttons"
+       android:layout_width="150dp"
+       android:layout_height="150dp"
+       android:layout_marginTop="400dp"
+       android:layout_marginLeft="200dp" >
+    >
+       <Button
+           android:id="@+id/up"
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:layout_marginBottom="100dp"
+           android:layout_marginLeft="50dp"
+           android:text="U" />
+
+       <Button
+           android:id="@+id/down"
+           android:layout_marginTop="100dp"
+           android:layout_marginLeft="50dp"
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:text="D" />
+
+       <Button
+           android:id="@+id/left"
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:layout_marginTop="50dp"
+           android:text="L" />
+
+       <Button
+           android:id="@+id/right"
+           android:layout_width="50dp"
+           android:layout_height="50dp"
+           android:layout_marginLeft="100dp"
+           android:layout_marginTop="50dp"
+           android:text="R" />
+
+ </FrameLayout>
+
+</com.example.mymapsvg.ZoomLayout>
